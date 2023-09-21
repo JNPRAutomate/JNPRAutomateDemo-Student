@@ -220,7 +220,7 @@ Metaprogramming
 
 [Metaprogramming](http://en.wikipedia.org/wiki/Metaprogramming) is a concept that is applicable in several programming languages. It effectively allows you to call code that does not exist and it utilizes the program as the data. This means that the program can dynamically interpet the code that is called and turn it into other code for you. The feelings around this technique vary, but in the case of PyEZ it is a perfect use case. The downside to consider is that this code is dynamically generated with no specific documentation around the various available methods on the device. Developers tend to spend a lot of time reading documentation and because the code doesn't actually exist this can be a problem. However the target of the PyEZ library is that it is to be used by network engineers who cross the lines between Junos knowledge and Python. This ability to meet in the middle is very powerful in the right hands.
 
-In Junos there are potentially thousands of different RPC calls that the user can call. These RPC calls are well documented on the [Juniper website]TODO undate link (http://foo). This documentation tells you what the various RPC calls do and the expected responses.
+In Junos there are potentially thousands of different RPC calls that the user can call. These RPC calls are well documented in the [Juniper XML API Explorer](https://apps.juniper.net/xmlapi/). This documentation tells you what the various RPC calls do and the expected responses.
 
 Mapping RPCs to Methods - The method to the madness
 ---------------------------------------------------
